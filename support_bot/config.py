@@ -5,7 +5,25 @@ from dataclasses import dataclass
 from uuid import UUID
 
 
-DEFAULT_START_MESSAGE = "Hello! How can I help you?"
+DEFAULT_START_MESSAGE = """🌈 Bienvenue sur Entre Nous | Fiertés Agathoises
+
+Ici, vous pouvez nous écrire en privé, librement et sans jugement.
+
+🏳️‍🌈 Vous vous posez des questions sur votre orientation sexuelle ou affective ?
+🏳️‍⚧️ Sur votre identité de genre ou une transidentité ?
+💬 Vous préparez un coming-out ou vous ne savez pas comment en parler à vos proches ?
+❤️ Vous vivez une situation de rejet, discrimination, LGBTphobie, isolement ou vous avez simplement besoin d’être écouté·e ?
+
+Vous êtes au bon endroit.
+
+Que vous soyez LGBTQIA+, en questionnement, proche d’une personne concernée ou simplement à la recherche d’informations, notre équipe est là pour vous écouter, vous informer et vous orienter si nécessaire.
+
+🤝 Votre message sera accessible uniquement aux membres habilités de Fiertés Agathoises chargés de cette permanence.
+
+⚠️ Cette permanence n’est pas un service d’urgence.
+
+Écrivez simplement votre message ci-dessous. 🌈
+Entre nous, on peut en parler."""
 
 
 @dataclass(frozen=True)
