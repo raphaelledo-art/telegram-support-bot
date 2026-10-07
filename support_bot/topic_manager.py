@@ -91,10 +91,10 @@ class TopicManager:
                 chat_id=self._operator_group_id,
                 message_thread_id=topic.message_thread_id,
                 text=(
-                    "Новый диалог.\n"
-                    f"Пользователь: {full_name}\n"
-                    f"ID: <code>{user.id}</code>\n"
-                    f"Имя пользователя: {username_line}"
+            "🌈 Nouveau message reçu\n"
+            f"👤 Prénom / nom : {full_name}\n"
+            f"🆔 ID Telegram : <code>{user.id}</code>\n"
+            f"💬 Utilisateur : {username_line}"
                 ),
             )
 
