@@ -77,11 +77,7 @@ async def start(
         return
 
     await _store_user_message(db, message, log_messages=log_messages)
-    topic = await _copy_to_operator_topic(message, bot, topics)
-    if topic is None:
-        return
-    if admin_bridge is not None:
-        await admin_bridge.publish_user_message(message, topic.topic_id, db)
+    
 
     await message.answer(start_message)
 
